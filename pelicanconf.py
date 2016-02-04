@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Garagem'
 SITENAME = u'Garagem Hacker'
-SITESUBTITLE = u'Makerspace'
+SITESUBTITLE = u'Hackerspace'
 SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
