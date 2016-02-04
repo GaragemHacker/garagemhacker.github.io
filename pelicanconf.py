@@ -4,9 +4,10 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Garagem'
 SITENAME = u'Garagem Hacker'
-SITEURL = 'http://localhost:7000'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
+THEME = 'themes/bricks'
 STATIC_PATHS = ['blog', 'extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 ARTICLE_PATHS = ['blog']

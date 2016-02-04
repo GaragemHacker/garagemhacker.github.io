@@ -52,11 +52,7 @@ regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
-ifdef PORT
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
-else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server
-endif
+	cd $(OUTPUTDIR) && $(PY) -m pelican.server 8000
 
 
 publish:
