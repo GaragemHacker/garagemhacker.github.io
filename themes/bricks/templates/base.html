@@ -40,7 +40,8 @@
 <body>
     <div class="pages">
         <ul>
-            <li class="home"><a href="{{ SITEURL }}/index.html">Home</a></li>
+            <li><a href="{{ SITEURL }}">Home</a></li>
+            <li><a target="_blank" href="https://github.com/garagemhacker/blog/wiki/">Wiki</a></li>
             {% for p in pages %}
             <li {% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
             {% endfor %}
@@ -52,7 +53,7 @@
             <div class="content-header">
                 <div id="title-block">
                 <img src="{{ SITEURL }}/theme/img/garagemhacker-logo.png" />
-                <p class="blurb">{{ SITESUBTITLE }}</p>
+                <h1 class="subtitle">{{ SITESUBTITLE }}</h1>
                 </div>
             </div>
         </div>
@@ -61,19 +62,9 @@
     <div class="content">
         <div class="data-holder">
         <div class="row">
-           <div class="large-10 content-column column">
+            <div class="large-12 content-column column {% block extra_content_classes %}{% endblock %}">
                 {% block content %}
                 {% endblock %}
-            </div>
-            <div class="large-2 aside column">
-                {% if LINKS %}
-                <h3>Links</h3>
-                <ul>
-                    {% for title,link in LINKS %}
-                    <li><a href="{{ link }}">{{ title }}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endif %}
             </div>
          </div>
     </div>
@@ -83,7 +74,7 @@
         {% block footer %}
         <div class="row">
             <div class="large-3 column">
-            {% include 'credits.html' %}
+            {% include 'twitter.html' %}
            </div>
            <div class="large-6 tag-cloud column">
                 <h3>Tags</h3>

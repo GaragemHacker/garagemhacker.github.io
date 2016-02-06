@@ -5,11 +5,8 @@ Category: Atividades
 Slug: to-dos-os-afazeres
 Status: published
 
-\[caption id="attachment\_233" align="alignright"
-width="300"\][![](http://garagemhacker.org/blog/wp-content/uploads/2014/04/IMG_60161-300x263.jpg){.afundo
-.wp-image-233 .size-medium width="300"
-height="263"}](http://garagemhacker.org/blog/wp-content/uploads/2014/04/IMG_60161.jpg)
-contrucao da mesa do chatroom\[/caption\]
+![Mesa Chatroom]({filename}/images/IMG_60161-300x263.jpg)
+*construção da mesa do chatroom*
 
 Aqui na Garagem Hacker temos o dia dos To-do's que geralmente é
 resolvido e debatido às quartas-feiras... Funciona assim: como temos

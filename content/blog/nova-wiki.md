@@ -5,12 +5,12 @@ Category: HackerSpace, Novidades, Publica
 Slug: nova-wiki
 Status: published
 
-Nossa [wiki](http://garagemhacker.org/wiki "wiki") está finalmente
+Nossa [wiki](https://github.com/garagemhacker/blog/wiki) está finalmente
 pronta e aberta para ser populada. O principal motivo de manter a wiki é
 melhorar o projeto SocialWeb da garagem e primordialmente documentar
 todos os nossos projetos tornando o espaço mais fácil de ser acompanhado
 por todos... Ali você poderá ver todos os projetos que estão sendo
-feitos, em qual estágio do processo estamos etc...  
+feitos, em qual estágio do processo estamos etc...
 Afinal todo auxilio é bem vindo quando é bem direcionado então
 acompanhando a wiki da garagem você poderá ter mais facilidade para se
 engajar nos projetos do espaço, que são muitos...

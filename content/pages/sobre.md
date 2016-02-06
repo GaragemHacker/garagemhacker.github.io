@@ -4,13 +4,7 @@ Author: garagem
 Slug: sobre
 Status: published
 
-<div class="rooller">
-
-![HackerSpace
-Curitiba](http://garagemhacker.org/blog/wp-content/uploads/2014/01/contato01-300x224.jpg "Garagem Hacker - Curitiba HackerSpace"){.wp-image-21
-.gfundo .alignleft width="287" height="191"}
-
-</div>
+![HackerSpace Curitiba]({filename}/images/contato01-300x224.jpg)
 
 A [GaragemHacker](http://pt.wikipedia.org/wiki/Garagem_Hacker) é um
 [HackerSpace](http://hackerspaces.org/wiki/Garagemhacker) localizado em
@@ -32,7 +26,7 @@ de ciência, tecnologia, arte digital e eletrônica, podem se encontrar,
 socializar e colaborar.
 
 Nesse local pessoas de diversas áreas podem trocar conhecimento e
-experiência para construir algo juntos.  
+experiência para construir algo juntos.
 O espaço é aberto para todos que tenham interesse em
 [conhecer](http://www.catb.org/~esr/faqs/hacker-howto.html "hacker horto"),
 aprender, desenvolver projetos, colaborar e participar. O local é
@@ -64,5 +58,4 @@ fica muito mais fácil receber auxílio quando ele está no lugar certo...
 Para entender melhor sobre hackerspace's visite o site oficial dos
 [hackerspaces](http://hackerspaces.org).
 
-[![hacker
-emblem](http://www.catb.org/hacker-emblem/glider.png)](http://www.catb.org/hacker-emblem/)
+[![hacker emblem](http://www.catb.org/hacker-emblem/glider.png)](http://www.catb.org/hacker-emblem/)

@@ -14,17 +14,15 @@ DoJO Shield da Garagem buscamos juntar vários componentes para nos
 divertirmos juntos. Aqui uma pequena lista dos componentes em nosso DoJ0
 shield:
 
-- Conectores para 2x Servos  
-- LED RGB  
-- LDR  
-- Potenciometro  
-- Display de 7 Segmentos  
-- Led's  
+- Conectores para 2x Servos
+- LED RGB
+- LDR
+- Potenciometro
+- Display de 7 Segmentos
+- Led's
 entre outros...
 
 <iframe width="360" height="215" src="https://www.youtube.com/embed/JNOXBXoQbEs" frameborder="0" allowfullscreen></iframe>
 
-*Acompanhe o projeto em nossa*
-[Wiki](http://garagemhacker.org/wiki/doku.php/projetos/todos/dojo_shield.txt "wiki")
-*e no*
-[GitHub](https://github.com/Garagem-Hacker/Arduino-Dojo-Shield "github")
+*Acompanhe o projeto em nossa* [Wiki](https://github.com/garagemhacker/blog/wiki)
+*e no* [GitHub](https://github.com/GaragemHacker/Arduino-Dojo-Shield)

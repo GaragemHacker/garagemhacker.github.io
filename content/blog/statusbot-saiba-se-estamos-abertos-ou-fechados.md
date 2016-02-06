@@ -12,12 +12,8 @@ informar se o HackerSpace esta aberto ou fechado.
 
 Então agora no topo da garagem você verá esta lampada
 
-\[caption id="attachment\_203" align="alignright"
-width="191"\][![Statusbot
-lamp](http://garagemhacker.org/blog/wp-content/uploads/2015/03/lamp.png){.backsolid
-.size-full .wp-image-203 width="191"
-height="265"}](http://garagemhacker.org/blog/wp-content/uploads/2015/03/lamp.png)
-Lampada que mostra se o hackerspace esta aberto ou fechado\[/caption\]
+![Statusbot Lamp]({filename}/images/lamp.png)
+*Lampada que mostra se o hackerspace esta aberto ou fechado*
 
 Quando a lampada estiver acesa, significa que a garagem esta aberta.
 Quando estiver apagada então estamos fechados.
@@ -25,12 +21,10 @@ Quando estiver apagada então estamos fechados.
 Logo voce poderá clicar nesta lampada e além de saber se estamos abertos
 ou fechados você tambem saberá quem esta no hackerspace.
 
-A descricao do projeto esta na wiki --&gt;
-[statusbot](http://garagemhacker.org/wiki/doku.php/projetos/todos/statusbot.txt "statusbot")
+A descricao do projeto esta na wiki [statusbot](https://github.com/garagemhacker/wiki)
 
 Voce pode tambem acompanhar o desenvolvimento pelo github da garagem no
-repositorio
-[statusbot](http://github.com/garagem-hacker/statusbot "statusbot")
+repositorio [statusbot](http://github.com/garagemhacker/statusbot)
 
 Voce pode contribuir com este projeto criando plugins, app's ou
 extensoes para qualquer dispositivo apenas colhendo o status de nossa
