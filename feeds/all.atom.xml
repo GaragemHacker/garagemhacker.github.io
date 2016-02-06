@@ -1,41 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker</title><link href="https://garagemhacker.github.io/blog/" rel="alternate"></link><link href="https://garagemhacker.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://garagemhacker.github.io/blog/</id><updated>2015-11-01T02:35:00-02:00</updated><entry><title>Halloween</title><link href="https://garagemhacker.github.io/blog/halloween" rel="alternate"></link><updated>2015-11-01T02:35:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-11-01:blog/halloween</id><summary type="html">&lt;p&gt;&lt;a href="http://garagemhacker.org/blog/wp-content/uploads/2015/11/IMG_5119.jpg"&gt;&lt;br /&gt;
-&lt;/a&gt;&lt;br /&gt;
-Doces ou Hackings!?  Halloween no hackerspace, bagunceira total e
-diversão com a criançada.&lt;/p&gt;
-&lt;p&gt;[gallery type="carousel" ids="260,259,258,257,256,255" interval="1"
-text="false" width="490px"]&lt;/p&gt;</summary><category term="garagemhacker halloween"></category><category term="halloween"></category><category term="halloween 2015"></category><category term="halloween hackerspace"></category><category term="Pumpkin Halloween"></category></entry><entry><title>Arduino DoJ0 Shield REV00</title><link href="https://garagemhacker.github.io/blog/arduino-doj0-shield-rev00" rel="alternate"></link><updated>2015-08-03T03:07:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-08-03:blog/arduino-doj0-shield-rev00</id><summary type="html">&lt;p&gt;Estamos montando nosso primeiro Arduino DoJo Shield "REV00".&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker</title><link href="https://garagemhacker.github.io/blog/" rel="alternate"></link><link href="https://garagemhacker.github.io/blog/feeds/all.atom.xml" rel="self"></link><id>https://garagemhacker.github.io/blog/</id><updated>2015-11-01T02:35:00-02:00</updated><entry><title>Halloween</title><link href="https://garagemhacker.github.io/blog/halloween" rel="alternate"></link><updated>2015-11-01T02:35:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-11-01:blog/halloween</id><summary type="html">&lt;p&gt;&lt;img alt="" src="https://garagemhacker.github.io/blog/images/IMG_5119.jpg" /&gt;
+&lt;em&gt;Doces ou Hackings!?  Halloween no hackerspace, bagunceira total e
+diversão com a criançada.&lt;/em&gt;&lt;/p&gt;</summary><category term="garagemhacker halloween"></category><category term="halloween"></category><category term="halloween 2015"></category><category term="halloween hackerspace"></category><category term="Pumpkin Halloween"></category></entry><entry><title>O Roadsec volta pra Curitiba!</title><link href="https://garagemhacker.github.io/blog/o-roadsec-volta-pra-curitiba" rel="alternate"></link><updated>2015-10-08T20:15:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-10-08:blog/o-roadsec-volta-pra-curitiba</id><summary type="html">&lt;p&gt;&lt;img alt="RoadSec 2015" src="https://garagemhacker.github.io/blog/images/roadsec-20151.png" /&gt;
+&lt;em&gt;RoadSec 2015&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;O maior evento brasileiro de Hacking, Segurança e Tecnologia volta à
+Curitiba, na última edição do ano antes do grande encerramento! Pra
+fechar com chave de ouro, novidades te esperam no Roadsec em 2015.
+Venha aproveitar o sábado épico do dia 17 de Outubro conosco, não
+perca!&lt;/p&gt;
+&lt;p&gt;Mais informações &lt;a href="http://roadsec.com.br/curitiba2015"&gt;http://roadsec.com.br/curitiba2015&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Arduino DoJ0 Shield REV00</title><link href="https://garagemhacker.github.io/blog/arduino-doj0-shield-rev00" rel="alternate"></link><updated>2015-08-03T03:07:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-08-03:blog/arduino-doj0-shield-rev00</id><summary type="html">&lt;p&gt;Estamos montando nosso primeiro Arduino DoJo Shield "REV00".&lt;/p&gt;
 &lt;p&gt;Um Arduino DoJo Shield tem o objetivo de facilitar a aprendizagem do
 Arduino mostrando na prática como programar para vários componentes, no
 DoJO Shield da Garagem buscamos juntar vários componentes para nos
 divertirmos juntos. Aqui uma pequena lista dos componentes em nosso DoJ0
 shield:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Conectores para 2x Servos  &lt;/li&gt;
-&lt;li&gt;LED RGB  &lt;/li&gt;
-&lt;li&gt;LDR  &lt;/li&gt;
-&lt;li&gt;Potenciometro  &lt;/li&gt;
-&lt;li&gt;Display de 7 Segmentos  &lt;/li&gt;
-&lt;li&gt;Led's&lt;br /&gt;
+&lt;li&gt;Conectores para 2x Servos&lt;/li&gt;
+&lt;li&gt;LED RGB&lt;/li&gt;
+&lt;li&gt;LDR&lt;/li&gt;
+&lt;li&gt;Potenciometro&lt;/li&gt;
+&lt;li&gt;Display de 7 Segmentos&lt;/li&gt;
+&lt;li&gt;Led's
 entre outros...&lt;/li&gt;
 &lt;/ul&gt;
 &lt;iframe width="360" height="215" src="https://www.youtube.com/embed/JNOXBXoQbEs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;em&gt;Acompanhe o projeto em nossa&lt;/em&gt;
-&lt;a href="http://garagemhacker.org/wiki/doku.php/projetos/todos/dojo_shield.txt" title="wiki"&gt;Wiki&lt;/a&gt;
-&lt;em&gt;e no&lt;/em&gt;
-&lt;a href="https://github.com/Garagem-Hacker/Arduino-Dojo-Shield" title="github"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</summary><category term="Arduino"></category><category term="Arduino Dojo Shield"></category><category term="Arduino Shield"></category><category term="Curitiba Dojo"></category><category term="Dojo Shield"></category><category term="GaragemHacker Dojo"></category><category term="HackerSpaces Dojo"></category></entry><entry><title>Contato</title><link href="https://garagemhacker.github.io/blog/contato" rel="alternate"></link><updated>2015-05-04T16:55:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-05-04:blog/contato</id><summary type="html"></summary></entry><entry><title>Nova Wiki</title><link href="https://garagemhacker.github.io/blog/nova-wiki" rel="alternate"></link><updated>2014-12-05T05:20:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2014-12-05:blog/nova-wiki</id><summary type="html">&lt;p&gt;Nossa &lt;a href="http://garagemhacker.org/wiki" title="wiki"&gt;wiki&lt;/a&gt; está finalmente
+&lt;p&gt;&lt;em&gt;Acompanhe o projeto em nossa&lt;/em&gt; &lt;a href="https://github.com/garagemhacker/blog/wiki"&gt;Wiki&lt;/a&gt;
+&lt;em&gt;e no&lt;/em&gt; &lt;a href="https://github.com/GaragemHacker/Arduino-Dojo-Shield"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</summary><category term="Arduino"></category><category term="Arduino Dojo Shield"></category><category term="Arduino Shield"></category><category term="Curitiba Dojo"></category><category term="Dojo Shield"></category><category term="GaragemHacker Dojo"></category><category term="HackerSpaces Dojo"></category></entry><entry><title>Contato</title><link href="https://garagemhacker.github.io/blog/contato" rel="alternate"></link><updated>2015-05-04T16:55:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-05-04:blog/contato</id><summary type="html"></summary></entry><entry><title>STATUSBOT - Saiba se estamos abertos ou fechados</title><link href="https://garagemhacker.github.io/blog/statusbot-saiba-se-estamos-abertos-ou-fechados" rel="alternate"></link><updated>2015-03-26T01:33:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-03-26:blog/statusbot-saiba-se-estamos-abertos-ou-fechados</id><summary type="html">&lt;p&gt;Para evitar dar com a cara na porta, montamos o statusbot que ainda esta
+em beta test mas ja esta funcionando. O statusbot é responsavel por
+informar se o HackerSpace esta aberto ou fechado.&lt;/p&gt;
+&lt;p&gt;Então agora no topo da garagem você verá esta lampada&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Statusbot Lamp" src="https://garagemhacker.github.io/blog/images/lamp.png" /&gt;
+&lt;em&gt;Lampada que mostra se o hackerspace esta aberto ou fechado&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Quando a lampada estiver acesa, significa que a garagem esta aberta.
+Quando estiver apagada então estamos fechados.&lt;/p&gt;
+&lt;p&gt;Logo voce poderá clicar nesta lampada e além de saber se estamos abertos
+ou fechados você tambem saberá quem esta no hackerspace.&lt;/p&gt;
+&lt;p&gt;A descricao do projeto esta na wiki &lt;a href="https://github.com/garagemhacker/wiki"&gt;statusbot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Voce pode tambem acompanhar o desenvolvimento pelo github da garagem no
+repositorio &lt;a href="http://github.com/garagemhacker/statusbot"&gt;statusbot&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Voce pode contribuir com este projeto criando plugins, app's ou
+extensoes para qualquer dispositivo apenas colhendo o status de nossa
+"API" que joga o estado em um arquivo texto em
+garagemhacker.org/status.txt&lt;/p&gt;
+&lt;p&gt;Enjoy!&lt;/p&gt;</summary><category term="a garagem esta abera?"></category><category term="garagem abriu"></category><category term="garagemhacker aberta"></category><category term="hackerspace aberto"></category><category term="statusbot"></category></entry><entry><title>Dumont HackerSpace na Campus Party</title><link href="https://garagemhacker.github.io/blog/dumont-hackerspace-na-campus-party" rel="alternate"></link><updated>2015-02-02T20:22:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-02-02:blog/dumont-hackerspace-na-campus-party</id><summary type="html">&lt;p&gt;&lt;img alt="Campus Party 8, HackerSpaces Unidos" src="https://garoa.net.br/w/images/thumb/Dumont.svg/489px-Dumont.svg.png" /&gt;&lt;/p&gt;
+&lt;p&gt;Yuhhuuu... chegando a &lt;a href="https://garoa.net.br/wiki/Dumont_Hackerspace_na_Campus_Party_2015#Atividades_Confirmadas"&gt;Campus Party
+(CPBR8)&lt;/a&gt;,
+com o Dumont HackerSpace. O Dumont é um HackerSpace itinerande que reune
+hackerspaces do brasil em uma cidade quando acontecem eventos para
+difundir a Cultura Hacker e popularizar o movimeto de HackerSpaces.
+A Garagemhacker estará lá junto com:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.facebook.com/pages/Abc-Makerspace/1487372014835809"&gt;ABC Makerspace&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;ForHackerSpace&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://garoa.net.br/wiki/P%C3%A1gina_principal"&gt;Garoa Hacker Clube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://lhc.net.br/"&gt;Laboratório Hacker de Campinas (LHC)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://matehackers.org/"&gt;Matehackers&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://raulhc.cc/"&gt;Raul Hacker Clube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.sjchackerclube.com.br/"&gt;SJC Hacker
+Clube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tarrafa.net"&gt;Tarrafa&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Venha conhecer os hackerspaces do Brasil no Dumont HackerSpace na Campus
+Party.
+Saiba mais no link &lt;a href="https://garoa.net.br/wiki/Dumont_Hackerspace_na_Campus_Party_2015"&gt;Dumont HackerSpace na Campus Party
+2015.&lt;/a&gt;&lt;/p&gt;</summary><category term="Campus Party 2015"></category><category term="Campus Party 8"></category><category term="Dumont HackerSpace"></category><category term="Embarcando Kernel Linux"></category><category term="GaragemHacker na Campus Party"></category><category term="Garoa na Campus Party"></category><category term="hackerspace 2015"></category><category term="hackerspaces unidos"></category><category term="Raul Hacker Clube na Campus Party"></category><category term="Tarrafa na Campus Party"></category></entry><entry><title>Hacking de Micro-Wave</title><link href="https://garagemhacker.github.io/blog/hacking-de-micro-wave" rel="alternate"></link><updated>2015-01-22T04:22:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-01-22:blog/hacking-de-micro-wave</id><summary type="html">&lt;p&gt;&lt;img alt="Hacking the MicroWave PAD" src="https://garagemhacker.github.io/blog/images/hacking_microwave-300x224.jpg" /&gt;
+&lt;em&gt;Zero fazendo o hacking do Pad&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Queremos comer pipoca de Micro-Ondas, aquecer algum pedaço de pizza
+etc... Tinhamos um micro-ondas parado já enconstado há algum tempo. O
+objetivo era reativar o micro-ondas e fazer com que ele ficasse mais
+divertido…&lt;/p&gt;
+&lt;p&gt;&lt;img alt="MicroWave New Pad" src="https://garagemhacker.github.io/blog/images/IMG_1449-300x224.jpg" /&gt;
+&lt;em&gt;MicroWave New Pad&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nosso micro-ondas estava com um defeito no Painel frontal. Desmontamos o
+Painel e descobrimos que a falha estava no cabo flat que fazia contato
+atravéz de uma tinta condutiva. O Flat já era e agora nao tinhamos mais
+acesso aos botoes do painel, Entao resolvemos hackear o painel e montar
+nosso próprio controle. Estavamos querendo usar um pad de telefone no
+lugar do painel, mas o unico pad de telefone que estava na mão estava em
+um telefone que estava em uso entao achamos em uma caixa um controle
+remoto qualquer e foi ele mesmo que usamos para montar nosso novo pad no
+lugar do painel do Micro-Ondas.&lt;/p&gt;
+&lt;p&gt;Veja o projeto em nossa &lt;a href="https://github.com/garagemhacker/wiki/"&gt;wiki&lt;/a&gt;&lt;/p&gt;</summary></entry><entry><title>Nova Wiki</title><link href="https://garagemhacker.github.io/blog/nova-wiki" rel="alternate"></link><updated>2014-12-05T05:20:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2014-12-05:blog/nova-wiki</id><summary type="html">&lt;p&gt;Nossa &lt;a href="https://github.com/garagemhacker/blog/wiki"&gt;wiki&lt;/a&gt; está finalmente
 pronta e aberta para ser populada. O principal motivo de manter a wiki é
 melhorar o projeto SocialWeb da garagem e primordialmente documentar
 todos os nossos projetos tornando o espaço mais fácil de ser acompanhado
 por todos... Ali você poderá ver todos os projetos que estão sendo
-feitos, em qual estágio do processo estamos etc...&lt;br /&gt;
+feitos, em qual estágio do processo estamos etc...
 Afinal todo auxilio é bem vindo quando é bem direcionado então
 acompanhando a wiki da garagem você poderá ter mais facilidade para se
 engajar nos projetos do espaço, que são muitos...&lt;/p&gt;
 &lt;p&gt;Como toda wiki você poderá criar também artigos, sempre lembre de usar a
 ferramenta da forma correta, leia as documentações e siga as instruções
-dela para que seus artigos se tornem sempre uma contribuição bem vinda.&lt;/p&gt;</summary></entry><entry><title>wiki</title><link href="https://garagemhacker.github.io/blog/wiki" rel="alternate"></link><updated>2014-11-25T03:06:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2014-11-25:blog/wiki</id><summary type="html"></summary></entry><entry><title>Home</title><link href="https://garagemhacker.github.io/blog/home" rel="alternate"></link><updated>2014-03-30T01:36:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-03-30:blog/home</id><summary type="html"></summary></entry><entry><title>No title [41]</title><link href="https://garagemhacker.github.io/blog/41" rel="alternate"></link><updated>2014-03-30T01:32:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-03-30:blog/41</id><summary type="html"></summary></entry><entry><title>No title [43]</title><link href="https://garagemhacker.github.io/blog/43" rel="alternate"></link><updated>2014-03-30T01:32:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-03-30:blog/43</id><summary type="html"></summary></entry><entry><title>No title [44]</title><link href="https://garagemhacker.github.io/blog/44" rel="alternate"></link><updated>2014-03-30T01:32:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-03-30:blog/44</id><summary type="html"></summary></entry><entry><title>Classes</title><link href="https://garagemhacker.github.io/blog/participar" rel="alternate"></link><updated>2014-02-05T21:55:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-02-05:blog/participar</id><summary type="html">&lt;p&gt;Manter um HackerSpace não é barato. Por isso organizamos algumas classes
+dela para que seus artigos se tornem sempre uma contribuição bem vinda.&lt;/p&gt;</summary></entry><entry><title>Smoke Weld FEST</title><link href="https://garagemhacker.github.io/blog/smoke-weld-fest" rel="alternate"></link><updated>2014-11-18T01:50:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2014-11-18:blog/smoke-weld-fest</id><summary type="html">&lt;p&gt;Juntamos um monte de sucada e chegou a hora de caçar, identificar e
+organizar todos os componentes para que possamos reaproveita-los em
+futuros projetos.
+A Smoke Weld Fest é um dia de fazer fumaça e sentir cheiro de ampère.
+Venha munido de seu ferro de solda ou soprador que a bagunça e o estanho
+já estão lá.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Festa da Fumaça e Solda" src="https://garagemhacker.github.io/blog/images/smoke-weld-fest-723x1024.jpg" /&gt;
+&lt;em&gt;Flyer da 1ª Smoke Weld Fest na GaragemHacker&lt;/em&gt;&lt;/p&gt;</summary></entry><entry><title>Visita do RaulHC</title><link href="https://garagemhacker.github.io/blog/visita-do-raulhc" rel="alternate"></link><updated>2014-06-11T19:03:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2014-06-11:blog/visita-do-raulhc</id><summary type="html">&lt;p&gt;&lt;img alt="RaulHC e GaragemHacker" src="https://garagemhacker.github.io/blog/images/raul-hc-300x225.jpg" /&gt;
+&lt;em&gt;Visita do RaulHC na GaragemHacker&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Tivemos recentemente aqui na Garagem, a ilustre visita do pessoal do
+&lt;a href="http://wiki.colivre.net/RaulHC/WebHome"&gt;Raul Hacker Club&lt;/a&gt; de
+Salvador, também conhecido como RaulHC... Pessoal muito gente boa...
+Rolou troca de camisas e um papo Nerd rápido devido a correria...&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Ps: Voltem sempre, com mais tempo na próxima pra dar tempo de pelo
+menos um Churrascker...&lt;/em&gt;&lt;/p&gt;</summary><category term="confraternização de hackerspace"></category><category term="GaragemHacker"></category><category term="GaragemHacker com RaulHC"></category><category term="garagemhacker e raulhc"></category><category term="hackerspaces unidos"></category><category term="RaulHC"></category><category term="RaulHC em Curitiba"></category><category term="Visita RaulHC Curitiba"></category></entry><entry><title>To-do's os Afazeres...</title><link href="https://garagemhacker.github.io/blog/to-dos-os-afazeres" rel="alternate"></link><updated>2014-04-17T22:00:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-04-17:blog/to-dos-os-afazeres</id><summary type="html">&lt;p&gt;&lt;img alt="Mesa Chatroom" src="https://garagemhacker.github.io/blog/images/IMG_60161-300x263.jpg" /&gt;
+&lt;em&gt;construção da mesa do chatroom&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Aqui na Garagem Hacker temos o dia dos To-do's que geralmente é
+resolvido e debatido às quartas-feiras... Funciona assim: como temos
+muito trabalho a ser feito com a automação e a integração dos bot's com
+a pagina e com o canal do irc e mais as redes sociais, então instituímos
+os todo's que são os afazeres que melhoram o Hackerspace, de uma maneira
+geral. Hoje não temos aqui muitas cadeiras nem muitos equipamentos, e
+como a grana é curta nós resolvemos construí-los...&lt;/p&gt;
+&lt;p&gt;O "to-do" da vez é uma Wiki que estamos montando para integrar com essa
+página e finalmente expor todos os projetos e desenvolvimentos que estão
+ativos aqui na GaragemHacker hoje...&lt;/p&gt;
+&lt;p&gt;Se você está interessado em conhecer, acompanhe a agenda da Garagem ou a
+nova Wiki que vamos divulgar logo.  Por ali você poderá escolher um
+evento pra participar.  Ou ainda saber quando o espaço está ou não
+aberto.&lt;/p&gt;
+&lt;p&gt;Os "to-do's" são debatidos quinzenamelte as quartas-feiras e a execução
+pratica acontece ao longo da semana...&lt;/p&gt;</summary></entry><entry><title>Home</title><link href="https://garagemhacker.github.io/blog/home" rel="alternate"></link><updated>2014-03-30T01:36:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-03-30:blog/home</id><summary type="html"></summary></entry><entry><title>No title [41]</title><link href="https://garagemhacker.github.io/blog/41" rel="alternate"></link><updated>2014-03-30T01:32:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-03-30:blog/41</id><summary type="html"></summary></entry><entry><title>No title [43]</title><link href="https://garagemhacker.github.io/blog/43" rel="alternate"></link><updated>2014-03-30T01:32:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-03-30:blog/43</id><summary type="html"></summary></entry><entry><title>No title [44]</title><link href="https://garagemhacker.github.io/blog/44" rel="alternate"></link><updated>2014-03-30T01:32:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-03-30:blog/44</id><summary type="html"></summary></entry><entry><title>Classes</title><link href="https://garagemhacker.github.io/blog/participar" rel="alternate"></link><updated>2014-02-05T21:55:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-02-05:blog/participar</id><summary type="html">&lt;p&gt;Manter um HackerSpace não é barato. Por isso organizamos algumas classes
 (mini workshop's) que podem ajudar a manter o espaço funcionando. Uma
 boa forma de auxiliar é participando das classes.&lt;br /&gt;
 Verifique a agenda para ver quando elas acontecerão.&lt;/p&gt;
@@ -57,54 +145,12 @@ Membro Fundador - Luis Bulek&lt;/p&gt;
 pelo verde das árvores pelos cantos dos pássaros e protegidos do
 movimento em uma tradicional rua sem sáida. Ficamos entre o Bosque do
 Papa e o Bosque do Alemão.&lt;/p&gt;
-&lt;iframe class="gfundo mapa-align" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3603.93786328984!2d-49.280488649999995!3d-25.40689045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce6ac3449c477%3A0xf80651c2277fb0bd!2sGaragem+Hacker!5e0!3m2!1spt-BR!2sbr!4v1395374029654" width="490" height="350" frameborder="0" style="border:0"&gt;&lt;/iframe&gt;</summary></entry><entry><title>Sobre</title><link href="https://garagemhacker.github.io/blog/sobre" rel="alternate"></link><updated>2014-01-30T11:18:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-01-30:blog/sobre</id><summary type="html">&lt;div class="rooller"&gt;
-
-![HackerSpace
-Curitiba](http://garagemhacker.org/blog/wp-content/uploads/2014/01/contato01-300x224.jpg "Garagem Hacker - Curitiba HackerSpace"){.wp-image-21
-.gfundo .alignleft width="287" height="191"}
-
-&lt;/div&gt;
-
+&lt;iframe class="gfundo mapa-align" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3603.93786328984!2d-49.280488649999995!3d-25.40689045!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce6ac3449c477%3A0xf80651c2277fb0bd!2sGaragem+Hacker!5e0!3m2!1spt-BR!2sbr!4v1395374029654" width="490" height="350" frameborder="0" style="border:0"&gt;&lt;/iframe&gt;</summary></entry><entry><title>Garagem Hacker Curitiba HackerSpace</title><link href="https://garagemhacker.github.io/blog/hello-world" rel="alternate"></link><updated>2014-01-30T11:18:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-01-30:blog/hello-world</id><summary type="html">&lt;p&gt;&lt;img alt="Hackerspace Curitiba" src="https://garagemhacker.github.io/blog/images/contato01.jpg" /&gt;
+&lt;em&gt;Foto da faixada da Garagem Hacker - Curitiba HackerSpace&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A &lt;a href="http://pt.wikipedia.org/wiki/Garagem_Hacker"&gt;GaragemHacker&lt;/a&gt; é um
 &lt;a href="http://hackerspaces.org/wiki/Garagemhacker"&gt;HackerSpace&lt;/a&gt; localizado em
 &lt;a href="http://desciclopedia.org/wiki/Curitiba"&gt;Curitiba&lt;/a&gt;. O espaço é aberto
 para ser frequentado geralmente à noite ou quando acontecem eventos. Aos
 finais de semana dependendo da disponibilidade dos mebros fundadores
 tambem podem acontecer mini workshop's, lan partys, installfest's,
-chuhacker's e outros...&lt;/p&gt;
-&lt;h3&gt;HackerSpace&lt;/h3&gt;
-&lt;p&gt;Somos uma organização no conceito de hackerspace, também conhecido como
-Creative Space.&lt;/p&gt;
-&lt;p&gt;Este é um local real em oposição ao virtual com o formato de um
-laboratório comunitário. Tendo espírito agregador, convergente e
-inspirador. Aqui pessoas com interesses em comum ligadas nas atividades
-de ciência, tecnologia, arte digital e eletrônica, podem se encontrar,
-socializar e colaborar.&lt;/p&gt;
-&lt;p&gt;Nesse local pessoas de diversas áreas podem trocar conhecimento e
-experiência para construir algo juntos.&lt;br /&gt;
-O espaço é aberto para todos que tenham interesse em
-&lt;a href="http://www.catb.org/~esr/faqs/hacker-howto.html" title="hacker horto"&gt;conhecer&lt;/a&gt;,
-aprender, desenvolver projetos, colaborar e participar. O local é
-descontraido e agregador.&lt;/p&gt;
-&lt;h3&gt;Como se aproximar e participar&lt;/h3&gt;
-&lt;p&gt;Fique atento a nossa agenda de eventos e venha participar... O espaço
-não está disponível 24/7 então acompanhe a agenda da Garagem para não
-acabar dando de cara com a porta!&lt;/p&gt;
-&lt;p&gt;Nós temos tambem uma &lt;a href="http://garagemhacker.org/wiki"&gt;wiki.&lt;/a&gt; É
-&lt;strong&gt;muuuiiittto&lt;/strong&gt; importante ler e acompanhar tudo que acontece por lá.
-Além de ser mantida comunitaráriamente a
-&lt;a href="http://garagemhacker.org/wiki"&gt;wiki&lt;/a&gt; é usada especialmente para
-documentar, catalogar e manter os
-&lt;a href="http://garagemhacker.org/wiki/doku.php/projetos/projetos"&gt;projetos&lt;/a&gt; que
-acontecem aqui na garagem.&lt;/p&gt;
-&lt;p&gt;É &lt;strong&gt;muito&lt;/strong&gt; importante ler esta &lt;a href="http://garagemhacker.org/wiki"&gt;wiki&lt;/a&gt;,
-principalmente se você nunca veio no espaço uma boa forma para se
-aproximar pode ser vendo os projetos que estão acontecendo em caso de
-estar interessado por algum você já terá assunto e atividade ao chegar,
-fica muito mais fácil receber auxílio quando ele está no lugar certo...
-;p&lt;/p&gt;
-&lt;h3&gt;Para saber mais sobre hackerspaces&lt;/h3&gt;
-&lt;p&gt;Para entender melhor sobre hackerspace's visite o site oficial dos
-&lt;a href="http://hackerspaces.org"&gt;hackerspaces&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a href="http://www.catb.org/hacker-emblem/"&gt;&lt;img alt="hacker
-emblem" src="http://www.catb.org/hacker-emblem/glider.png" /&gt;&lt;/a&gt;&lt;/p&gt;</summary></entry></feed>
+chuhacker's e outros...&lt;/p&gt;</summary><category term="Creative Space"></category><category term="Curitiba Hackers"></category><category term="Curitiba HackerSpace"></category><category term="GaragemHacker"></category><category term="Hacker Club"></category><category term="Hacker em Curitiba"></category><category term="HackerClube"></category><category term="HackerSpace Paraná"></category><category term="Lab Garagem"></category><category term="LabCuritiba"></category><category term="Makers"></category><category term="Parana Hackers"></category></entry></feed>
