@@ -6,6 +6,6 @@ Tags: garagemhacker halloween, halloween, halloween 2015, halloween hackerspace,
 Slug: halloween
 Status: published
 
-![]({filename}/images/IMG_5119.jpg)
+![halloween]({filename}/images/IMG_5119.jpg)
 *Doces ou Hackings!?  Halloween no hackerspace, bagunceira total e
 diversão com a criançada.*

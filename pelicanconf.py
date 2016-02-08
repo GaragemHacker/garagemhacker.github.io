@@ -57,3 +57,4 @@ CATEGORYS_SAVE_AS = 'categories/index.html'
 
 
 DISQUS_SITENAME = "garagemhacker"
+GOOGLE_ANALYTICS = "UA-899823-17"
