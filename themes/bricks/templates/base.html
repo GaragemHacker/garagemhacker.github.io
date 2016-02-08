@@ -38,75 +38,76 @@
     {% endblock head %}
 </head>
 <body>
-<div class="pages">
-    <ul>
-	<li><a href="{{ SITEURL }}">Home</a></li>
-	<li><a target="_blank" href="https://github.com/garagemhacker/blog/wiki/">Wiki</a></li>
-	{% for p in pages %}
-	<li {% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
-	{% endfor %}
-    </ul>
-</div>
-{% block pageheader %}
-<div class="hp-header">
-    <div class="page-header">
-	<div class="content-header">
-	    <div id="title-block">
-	    <img src="{{ SITEURL }}/theme/img/garagemhacker-logo.png" />
-	    <h1 class="subtitle">{{ SITESUBTITLE }}</h1>
-	    </div>
-	</div>
+    <div class="pages">
+        <ul>
+            <li><a href="{{ SITEURL }}">Home</a></li>
+            <li><a target="_blank" href="https://github.com/garagemhacker/blog/wiki/">Wiki</a></li>
+            {% for p in pages %}
+            <li {% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+            {% endfor %}
+        </ul>
     </div>
-</div>
-{% endblock %}
-<div class="content">
-    <div class="data-holder">
-    <div class="row">
-	<div class="large-12 content-column column {% block extra_content_classes %}{% endblock %}">
-	    {% block content %}
-	    {% endblock %}
-	</div>
-     </div>
-</div>
-<div class="footer">
-    <div class="data-holder">
-    {% block footer %}
-    <div class="row">
-	<div class="large-3 column">
-	{% include 'twitter.html' %}
-       </div>
-       <div class="large-6 tag-cloud column">
-	    <h3>Tags</h3>
-	    <ul>
-		{% for t,tx in tags %}
-		<li{% if t==tag %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ t.url }}">{{ t }}</a>({{ tx | length }})</li>
-		{% endfor %}
-	    </ul>
-	</div>
-	<div class="large-3 category-column column">
-	    <h3>Categories</h3>
-	    <ul>
-		{% for cat,l in categories %}
-		<li{% if cat==category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a> ({{ l | length }})</li>
-		{% endfor %}
-	    </ul>
-
-	</div>
-    </row>
+    {% block pageheader %}
+    <div class="hp-header">
+        <div class="page-header">
+            <div class="content-header">
+                <div id="title-block">
+                <img src="{{ SITEURL }}/theme/img/garagemhacker-logo.png" />
+                <h1 class="subtitle">{{ SITESUBTITLE }}</h1>
+                </div>
+            </div>
+        </div>
+    </div>
     {% endblock %}
+    <div class="content">
+        <div class="data-holder">
+            <div class="row">
+                <div class="large-12 content-column column {% block extra_content_classes %}{% endblock %}">
+                    {% block content %}
+                    {% endblock %}
+                </div>
+             </div>
+        </div>
     </div>
-</div>
-{% if GOOGLE_ANALYTICS %}
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <div class="footer">
+        <div class="data-holder">
+        {% block footer %}
+        <div class="row">
+            <div class="large-3 column">
+            {% include 'twitter.html' %}
+           </div>
+           <div class="large-6 tag-cloud column">
+                <h3>Tags</h3>
+                <ul>
+                    {% for t,tx in tags %}
+                    <li{% if t==tag %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ t.url }}">{{ t }}</a>({{ tx | length }})</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="large-3 category-column column">
+                <h3>Categories</h3>
+                <ul>
+                    {% for cat,l in categories %}
+                    <li{% if cat==category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a> ({{ l | length }})</li>
+                    {% endfor %}
+                </ul>
 
-  ga('create', 'UA-899823-17', 'auto');
-  ga('send', 'pageview');
+            </div>
+        </row>
+        {% endblock %}
+        </div>
+    </div>
+    {% if GOOGLE_ANALYTICS %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-</script>
-{% endif %}
+      ga('create', 'UA-899823-17', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    {% endif %}
 </body>
 </html>
