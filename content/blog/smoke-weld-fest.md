@@ -1,7 +1,7 @@
 Title: Smoke Weld FEST
 Date: 2014-11-18 01:50
 Author: zz0
-Category: Uncategorized
+Category:
 Slug: smoke-weld-fest
 Status: published
 
