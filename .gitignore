@@ -64,3 +64,6 @@ target/
 
 # Pelican
 output
+
+# Mac
+.DS_Store
