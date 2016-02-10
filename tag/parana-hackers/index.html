@@ -184,7 +184,6 @@ tambem podem acontecer mini workshop's, lan partys, installfest's ...</p>
             $.ajax({
                 url: 'http://garagemhacker.org/status.txt',
                 success: function(data) {
-                    console.log('result', data);
                     if (data == 'aberto') {
                         $('.lamp').toggleClass('opened');
                     }

@@ -250,7 +250,6 @@ Venha munido de seu ferro de solda ou soprador que a ...</p>
             $.ajax({
                 url: 'http://garagemhacker.org/status.txt',
                 success: function(data) {
-                    console.log('result', data);
                     if (data == 'aberto') {
                         $('.lamp').toggleClass('opened');
                     }

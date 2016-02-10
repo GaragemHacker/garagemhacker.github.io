@@ -212,7 +212,6 @@ auxiliando a manter o espaço mais ativo e com equipamentos melhores.</p>
             $.ajax({
                 url: 'http://garagemhacker.org/status.txt',
                 success: function(data) {
-                    console.log('result', data);
                     if (data == 'aberto') {
                         $('.lamp').toggleClass('opened');
                     }

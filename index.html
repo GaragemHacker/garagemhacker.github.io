@@ -238,7 +238,6 @@ informar se o HackerSpace esta aberto ou fechado.</p>
             $.ajax({
                 url: 'http://garagemhacker.org/status.txt',
                 success: function(data) {
-                    console.log('result', data);
                     if (data == 'aberto') {
                         $('.lamp').toggleClass('opened');
                     }

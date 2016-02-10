@@ -214,7 +214,6 @@ pratica acontece ao longo da semana...</p>
             $.ajax({
                 url: 'http://garagemhacker.org/status.txt',
                 success: function(data) {
-                    console.log('result', data);
                     if (data == 'aberto') {
                         $('.lamp').toggleClass('opened');
                     }

@@ -218,7 +218,6 @@ Saiba mais no link <a href="https://garoa.net.br/wiki/Dumont_Hackerspace_na_Camp
             $.ajax({
                 url: 'http://garagemhacker.org/status.txt',
                 success: function(data) {
-                    console.log('result', data);
                     if (data == 'aberto') {
                         $('.lamp').toggleClass('opened');
                     }

@@ -202,7 +202,6 @@ Rolou troca de camisas e um papo Nerd rápido devido a correria...</p>
             $.ajax({
                 url: 'http://garagemhacker.org/status.txt',
                 success: function(data) {
-                    console.log('result', data);
                     if (data == 'aberto') {
                         $('.lamp').toggleClass('opened');
                     }
