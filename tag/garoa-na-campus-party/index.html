@@ -8,9 +8,9 @@
     <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,300italic,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://garagemhacker.github.io/blog/theme/css/lamboz.css" media="all">
-    <title>Garagem Hacker</title>
+    <title>Garagem Hacker 2.0</title>
     <meta charset="utf-8" />
-    <link href="https://garagemhacker.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Garagem Hacker Full Atom Feed" />
+    <link href="https://garagemhacker.github.io/blog/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Garagem Hacker 2.0 Full Atom Feed" />
 </head>
 <body>
     <div class="pages">
@@ -22,6 +22,11 @@
             <li ><a href="https://garagemhacker.github.io/blog/local/">Localização</a></li>
             <li ><a href="https://garagemhacker.github.io/blog/sobre/">Sobre</a></li>
         </ul>
+    </div>
+    <div id="lamp">
+      <div class="lamp">
+	<div class="gonna-give-light"></div>
+      </div>
     </div>
 <div class="hp-header-inner">
     <div class="page-header">
@@ -148,15 +153,31 @@ A Garagemhacker estará lá junto com:</p>
         </row>
         </div>
     </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', 'UA-899823-17', 'auto');
-      ga('send', 'pageview');
+        ga('create', 'UA-899823-17', 'auto');
+        ga('send', 'pageview');
 
+        $(document).ready(function () {
+            // get garagem status
+            //TODO: Missing CORS on garagemhacker.org domain for this request
+            $.ajax({
+                url: 'http://garagemhacker.org/status.txt',
+                success: function(data) {
+                    if (data == 'aberto') {
+                        $('.lamp').toggleClass('opened');
+                    }
+                },
+                error: function(error) {
+                    console.trace('Error on getting lamp info', error);
+                }
+            });
+        });
     </script>
 </body>
 </html>
