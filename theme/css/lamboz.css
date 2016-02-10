@@ -45,7 +45,7 @@ H5,H6 { font-size: 1.05em; }
 .main-article {
 	background-color: #fff;
 	margin-bottom: 0.8em;
-	padding: 1em;
+	padding: 2em;
 }
 
 .main-article H2 {
@@ -285,7 +285,7 @@ h1.subtitle {
 .sec-article,
 .page-article {
 	background: #fff;
-	padding: 15px;
+	padding: 2em;
 	border-radius: 25px;
 }
 
@@ -431,6 +431,12 @@ h1.subtitle {
 	}
 
 	.main-article  {
-		padding: 0.5em;
+		padding: 2em;
+	}
+
+	.sec-article,
+	.page-article {
+		margin-top: 20px;
+		margin-bottom: 20px;
 	}
 }
