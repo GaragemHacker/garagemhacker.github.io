@@ -4,6 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://garagemhacker.github.io/blog/theme/css/foundation.min.css" media="all">
+    <!-- icons -->
+    <link rel="apple-touch-icon" sizes="57x57" href="https://garagemhacker.github.io/blog/theme/img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="https://garagemhacker.github.io/blog/theme/img/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://garagemhacker.github.io/blog/theme/img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://garagemhacker.github.io/blog/theme/img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://garagemhacker.github.io/blog/theme/img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://garagemhacker.github.io/blog/theme/img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://garagemhacker.github.io/blog/theme/img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://garagemhacker.github.io/blog/theme/img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://garagemhacker.github.io/blog/theme/img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="https://garagemhacker.github.io/blog/theme/img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://garagemhacker.github.io/blog/theme/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="https://garagemhacker.github.io/blog/theme/img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://garagemhacker.github.io/blog/theme/img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#006018">
+    <meta name="msapplication-TileImage" content="https://garagemhacker.github.io/blog/theme/img/ms-icon-144x144.png">
+    <meta name="theme-color" content="#006018">
+
     <script type="text/javascript" src="https://garagemhacker.github.io/blog/theme/js/modernizr.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,300italic,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -165,10 +184,10 @@ A Garagemhacker estará lá junto com:</p>
 
         $(document).ready(function () {
             // get garagem status
-            //TODO: Missing CORS on garagemhacker.org domain for this request
             $.ajax({
                 url: 'http://garagemhacker.org/status.txt',
                 success: function(data) {
+                    console.log('result', data);
                     if (data == 'aberto') {
                         $('.lamp').toggleClass('opened');
                     }
