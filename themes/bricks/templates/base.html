@@ -127,7 +127,7 @@
                 </ul>
             </div>
             <div class="large-3 category-column column">
-                <h3>Categories</h3>
+                <h3>Categorias</h3>
                 <ul>
                     {% for cat,l in categories %}
                     <li{% if cat==category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a> ({{ l | length }})</li>
