@@ -27,7 +27,6 @@
     <link href='https://fonts.googleapis.com/css?family=Exo+2:400,300,700,300italic,400italic,700italic,900,900italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ SITEURL }}/theme/css/lamboz.css" media="all">
-    {% block head %}
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
     <meta charset="utf-8" />
     {% if FEED_ALL_ATOM %}
@@ -54,7 +53,26 @@
     {% if TAG_FEED_RSS and tag %}
     <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
     {% endif %}
-    {% endblock head %}
+
+    <!-- SEO -->
+    <meta property="og:site_name" content="{{ SITENAME }}" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@garagemhacker">
+
+    {% block seo %}
+    <meta property="og:title" content="{{ SITENAME }}" />
+    <meta property="og:url" content="{{ SITEURL }}"/>
+    <meta property="og:description" content="{{ SITENAME }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ SITEURL}}/theme/img/garagemhacker-logo.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="181" />
+    <meta name="twitter:title" content="{{ SITENAME }}">
+    <meta name="twitter:description" content="{{ SITENAME }}">
+    {% endblock %}
+
 </head>
 <body>
     <div class="pages">
@@ -136,12 +154,12 @@
             // get garagem status
             $.ajax({
                 url: 'http://garagemhacker.org/status.txt',
-                success: function(data) {
-                    if (data == 'aberto') {
+                success: function (data) {
+                    if (data.trim() === 'aberto') {
                         $('.lamp').toggleClass('opened');
                     }
                 },
-                error: function(error) {
+                error: function (error) {
                     console.trace('Error on getting lamp info', error);
                 }
             });

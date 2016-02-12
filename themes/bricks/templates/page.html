@@ -1,6 +1,13 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
 
+{% block seo %}
+<meta property="og:title" content="{{ page.title }}" />
+<meta property="og:url" content="{{ SITEURL }}/{{ page.url }}"/>
+<meta property="og:type" content="article" />
+<meta name="twitter:title" content="{{ page.title }}">
+{% endblock %}
+
 {% block pageheader %}
 <div class="hp-header-inner">
     <div class="page-header">
@@ -18,9 +25,6 @@
 
 {% block content %}
     <section class="article">
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
-
     {{ page.content }}
     </section>
 {% endblock %}

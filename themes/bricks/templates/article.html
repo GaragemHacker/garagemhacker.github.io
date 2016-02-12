@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title }} - {{SITENAME}}{% endblock title %}
+
+{% block seo %}
+<meta property="og:title" content="{{ article.title }}" />
+<meta property="og:url" content="{{ SITEURL }}/{{ article.url }}"/>
+<meta property="og:type" content="article" />
+<meta name="twitter:title" content="{{ article.title }}">
+{% endblock %}
+
 {% block pageheader %}
 <div class="hp-header-inner">
     <div class="page-header">

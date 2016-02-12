@@ -2,7 +2,7 @@ Title: STATUSBOT - Saiba se estamos abertos ou fechados
 Date: 2015-03-26 01:33
 Author: zz0
 Category: HackerSpace, Novidades, Projetos
-Tags: a garagem esta abera?, garagem abriu, garagemhacker aberta, hackerspace aberto, statusbot
+Tags: garagemhacker, hackerspace aberto, statusbot
 Slug: statusbot-saiba-se-estamos-abertos-ou-fechados
 Status: published
 
