@@ -16,7 +16,9 @@ Instalando e Rodando
 
 - Assumindo que seu git e virtualenv já estão configurados, faça o clone do repositório
 
-	$ git clone git@github.com:garagemhacker/blog.git
+```bash
+git clone git@github.com:garagemhacker/blog.git
+```
 
 - Crie uma virtualenv (pode chamar `garagem`). Se você não sabe como criar uma virtualenv, [leia isso](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
