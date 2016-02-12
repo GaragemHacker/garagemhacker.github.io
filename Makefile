@@ -21,6 +21,7 @@ ifeq ($(RELATIVE), 1)
 endif
 
 PAGESDIR=$(INPUTDIR)/pages
+POSTSDIR=$(INPUTDIR)/blog
 DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
 SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
 EXT ?= md
@@ -37,6 +38,8 @@ help:
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
 	@echo '   make stopserver                     stop local server                  '
 	@echo '   make github                         upload the web site via gh-pages   '
+	@echo '   make post                           create a new post                  '
+	@echo '   make page                           create a new page                  '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
@@ -64,13 +67,13 @@ github: publish
 
 post:
 ifdef NAME
-	echo "Title: $(NAME)" >  $(INPUTDIR)/$(SLUG).$(EXT)
-	echo "Slug: $(SLUG)" >> $(INPUTDIR)/$(SLUG).$(EXT)
-	echo "Date: $(DATE)" >> $(INPUTDIR)/$(SLUG).$(EXT)
-	echo "Tags: " >> $(INPUTDIR)/$(SLUG).$(EXT)
-	echo ""              >> $(INPUTDIR)/$(SLUG).$(EXT)
-	echo ""              >> $(INPUTDIR)/$(SLUG).$(EXT)
-	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT}
+	echo "Title: $(NAME)" >  $(POSTSDIR)/$(SLUG).$(EXT)
+	echo "Slug: $(SLUG)" >> $(POSTSDIR)/$(SLUG).$(EXT)
+	echo "Date: $(DATE)" >> $(POSTSDIR)/$(SLUG).$(EXT)
+	echo "Tags: " >> $(POSTSDIR)/$(SLUG).$(EXT)
+	echo ""              >> $(POSTSDIR)/$(SLUG).$(EXT)
+	echo ""              >> $(POSTSDIR)/$(SLUG).$(EXT)
+	${EDITOR} ${POSTSDIR}/${SLUG}.${EXT}
 else
 	@echo 'Variable NAME is not defined.'
 	@echo 'Do make newpost NAME='"'"'Post Name'"'"
