@@ -2,11 +2,27 @@
 
 {% block title %}{{ SITENAME }} - Tags{% endblock %}
 
+{% block pageheader %}
+<div class="hp-header-inner">
+    <div class="page-header">
+        <div class="content-header">
+            <div id="title-block">
+                <img src="{{ SITEURL }}/theme/img/garagemhacker-logo.png" />
+                <h1>Tags</h1>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_content_classes %}page-article{% endblock %}
+
 {% block content %}
-    <h1>Tags</h1>
+<section class="article">
     <ul class="tag-list">
     {%- for tag, articles in tags|sort %}
         <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> ({{ articles|count }})</li>
     {% endfor %}
     </ul>
+</section>
 {% endblock %}

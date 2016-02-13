@@ -1,11 +1,29 @@
 {% extends "base.html" %}
-{% block content %}
-<h1>Archives for {{ SITENAME }}</h1>
 
-<dl>
-{% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
-{% endfor %}
-</dl>
+{% block title %}{{ SITENAME }} - Arquivo{% endblock %}
+
+{% block pageheader %}
+<div class="hp-header-inner">
+    <div class="page-header">
+        <div class="content-header">
+            <div id="title-block">
+                <img src="{{ SITEURL }}/theme/img/garagemhacker-logo.png" />
+                <h1>Arquivo</h1>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_content_classes %}page-article{% endblock %}
+
+{% block content %}
+<section class="article">
+    <dl>
+    {% for article in dates %}
+        <dt>{{ article.locale_date }}</dt>
+        <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
+    {% endfor %}
+    </dl>
+</section>
 {% endblock %}

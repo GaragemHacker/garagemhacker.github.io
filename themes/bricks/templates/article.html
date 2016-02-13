@@ -14,7 +14,7 @@
         <div class="content-header">
             <div id="title-block">
                 <img src="{{ SITEURL }}/theme/img/garagemhacker-logo.png" />
-                <h1><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">{{ article.title }}</a></h1>
+                <h1 itemprop="headline"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="{{ article.title|striptags }}">{{ article.title }}</a></h1>
             </div>
         </div>
     </div>
@@ -24,24 +24,23 @@
 {% block extra_content_classes %}article-content{% endblock %}
 
 {% block content %}
-<div class="content-article">
+<div class="content-article" itemid="{{ SITEURL }}/{{ article.url }}" itemscope itemtype="http://schema.org/LiveBlogPosting">
     <header class="header-article">
-        <div class="read-more">Posted on {{ article.locale_date }}</div>
+        <div class="read-more">Postado em <time itemprop="datePublished" content="{{ article.date.isoformat() }}">{{ article.locale_date }}</time></div>
    </header>
     <section class='article'>
-        <div class="entry-content">
+        <div class="entry-content" itemprop="articleBody">
             {{ article.content }}
         </div>
     </section>
     <footer class="footer-article">
-        <div class="tags-and-categories">Filed under <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
-        | Tagged: {% if article.tags %}{% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }} </a>{% endfor %}{% endif %}
+        <div class="tags-and-categories">Categoria <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+        | Tags: {% if article.tags %}{% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }} </a>{% endfor %}{% endif %}
 
         | <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-         title="Permalink to {{ article.title|striptags }}">Permalink</a>
+         title="Permalink to {{ article.title|striptags }}">Link permanente</a>
         </div>
     </footer>
-    <!-- disqus {{ DISQUS_SITENAME }} -->
     {% include 'article_discus.html' %}
 </div>
 {% endblock %}

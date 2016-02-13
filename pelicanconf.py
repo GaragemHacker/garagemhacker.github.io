@@ -19,6 +19,7 @@ ARTICLE_URL = '{slug}'
 TIMEZONE = 'America/Sao_Paulo'
 
 DEFAULT_LANG = u'pt'
+LOCALE = 'pt_BR'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None

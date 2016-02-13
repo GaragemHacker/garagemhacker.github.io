@@ -79,6 +79,7 @@
     <div class="pages">
         <ul>
             <li><a href="{{ SITEURL }}">Home</a></li>
+            <li><a href="{{ SITEURL }}/archives">Arquivo</a></li>
             <li><a target="_blank" href="https://github.com/garagemhacker/blog/wiki/">Wiki</a></li>
             {% for p in pages %}
             <li {% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
