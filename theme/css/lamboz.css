@@ -108,12 +108,12 @@ ul.tag-list LI:hover {
 }
 
 ul.tag-list LI {
-	display: inline-block;
-	background-color: white;
-	border: 1px dotted silver;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	padding: 3px;
+    display: inline-block;
+    background-color: white;
+    margin-right: 5px;
+    margin-bottom: 11px;
+    padding: 10px;
+    border-radius: 16px;
 }
 
 div.entry-summary p{
