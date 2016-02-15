@@ -178,7 +178,9 @@
                 url: 'http://garagemhacker.org/status.txt',
                 success: function (data) {
                     if (data.trim() === 'aberto') {
-                        $('.lamp').toggleClass('opened');
+                        $('.lamp').addClass('opened');
+                    } else {
+                        $('.lamp').removeClass('opened');
                     }
                 },
                 error: function (error) {
