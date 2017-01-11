@@ -54,7 +54,7 @@ clean:
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
-serve:
+serve: html
 	cd $(OUTPUTDIR) && $(PY) -m pelican.server 8000
 
 

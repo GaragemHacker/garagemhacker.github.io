@@ -32,7 +32,6 @@ pip install -r requirements.txt
 - Gere o output do site e Rode o projeto
 
 ```bash
-make html
 make serve
 ```
 
