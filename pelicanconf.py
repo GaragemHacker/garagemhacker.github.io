@@ -9,7 +9,7 @@ SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 THEME = 'themes/bricks'
-STATIC_PATHS = ['images',]
+STATIC_PATHS = ['images', 'extra']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 ARTICLE_PATHS = ['blog']
 ARTICLE_SAVE_AS = '{slug}.html'
