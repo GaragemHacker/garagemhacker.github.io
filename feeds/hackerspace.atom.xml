@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0 - HackerSpace</title><link href="https://garagemhacker.com/" rel="alternate"></link><link href="https://garagemhacker.com/feeds/hackerspace.atom.xml" rel="self"></link><id>https://garagemhacker.com/</id><updated>2014-01-30T11:18:00-02:00</updated><entry><title>Garagem Hacker Curitiba HackerSpace</title><link href="https://garagemhacker.com/hello-world" rel="alternate"></link><published>2014-01-30T11:18:00-02:00</published><updated>2014-01-30T11:18:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.com,2014-01-30:/hello-world</id><summary type="html">&lt;p&gt;&lt;img alt="Hackerspace Curitiba" src="https://garagemhacker.com/images/contato01.jpg"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0 - HackerSpace</title><link href="http://garagemhacker.com/" rel="alternate"></link><link href="http://garagemhacker.com/feeds/hackerspace.atom.xml" rel="self"></link><id>http://garagemhacker.com/</id><updated>2014-01-30T11:18:00-02:00</updated><entry><title>Garagem Hacker Curitiba HackerSpace</title><link href="http://garagemhacker.com/hello-world" rel="alternate"></link><published>2014-01-30T11:18:00-02:00</published><updated>2014-01-30T11:18:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.com,2014-01-30:/hello-world</id><summary type="html">&lt;p&gt;&lt;img alt="Hackerspace Curitiba" src="http://garagemhacker.com/images/contato01.jpg"&gt;
 &lt;em&gt;Foto da faixada da Garagem Hacker - Curitiba HackerSpace&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A &lt;a href="http://pt.wikipedia.org/wiki/Garagem_Hacker"&gt;GaragemHacker&lt;/a&gt; é um
 &lt;a href="http://hackerspaces.org/wiki/Garagemhacker"&gt;HackerSpace&lt;/a&gt; localizado em
@@ -7,7 +7,7 @@
 para ser frequentado geralmente à noite ou quando acontecem eventos. Aos
 finais de semana dependendo da disponibilidade dos mebros fundadores
 tambem podem acontecer mini workshop's, lan partys, installfest's,
-chuhacker's e …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Hackerspace Curitiba" src="https://garagemhacker.com/images/contato01.jpg"&gt;
+chuhacker's e …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Hackerspace Curitiba" src="http://garagemhacker.com/images/contato01.jpg"&gt;
 &lt;em&gt;Foto da faixada da Garagem Hacker - Curitiba HackerSpace&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;A &lt;a href="http://pt.wikipedia.org/wiki/Garagem_Hacker"&gt;GaragemHacker&lt;/a&gt; é um
 &lt;a href="http://hackerspaces.org/wiki/Garagemhacker"&gt;HackerSpace&lt;/a&gt; localizado em

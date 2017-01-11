@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0 - Atividades</title><link href="https://garagemhacker.com/" rel="alternate"></link><link href="https://garagemhacker.com/feeds/atividades.atom.xml" rel="self"></link><id>https://garagemhacker.com/</id><updated>2014-04-17T22:00:00-03:00</updated><entry><title>To-do's os Afazeres...</title><link href="https://garagemhacker.com/to-dos-os-afazeres" rel="alternate"></link><published>2014-04-17T22:00:00-03:00</published><updated>2014-04-17T22:00:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.com,2014-04-17:/to-dos-os-afazeres</id><summary type="html">&lt;p&gt;&lt;img alt="Mesa Chatroom" src="https://garagemhacker.com/images/IMG_60161-300x263.jpg"&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0 - Atividades</title><link href="http://garagemhacker.com/" rel="alternate"></link><link href="http://garagemhacker.com/feeds/atividades.atom.xml" rel="self"></link><id>http://garagemhacker.com/</id><updated>2014-04-17T22:00:00-03:00</updated><entry><title>To-do's os Afazeres...</title><link href="http://garagemhacker.com/to-dos-os-afazeres" rel="alternate"></link><published>2014-04-17T22:00:00-03:00</published><updated>2014-04-17T22:00:00-03:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.com,2014-04-17:/to-dos-os-afazeres</id><summary type="html">&lt;p&gt;&lt;img alt="Mesa Chatroom" src="http://garagemhacker.com/images/IMG_60161-300x263.jpg"&gt;
 &lt;em&gt;construção da mesa do chatroom&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Aqui na Garagem Hacker temos o dia dos To-do's que geralmente é
 resolvido e debatido às quartas-feiras... Funciona assim: como temos
 muito trabalho a ser feito com a automação e a integração dos bot's com
-a pagina e com o canal do irc e mais …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Mesa Chatroom" src="https://garagemhacker.com/images/IMG_60161-300x263.jpg"&gt;
+a pagina e com o canal do irc e mais …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Mesa Chatroom" src="http://garagemhacker.com/images/IMG_60161-300x263.jpg"&gt;
 &lt;em&gt;construção da mesa do chatroom&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Aqui na Garagem Hacker temos o dia dos To-do's que geralmente é
 resolvido e debatido às quartas-feiras... Funciona assim: como temos
