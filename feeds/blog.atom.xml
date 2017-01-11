@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0</title><link href="https://garagemhacker.github.io/blog/" rel="alternate"></link><link href="https://garagemhacker.github.io/blog/feeds/blog.atom.xml" rel="self"></link><id>https://garagemhacker.github.io/blog/</id><updated>2014-11-18T01:50:00-02:00</updated><entry><title>Smoke Weld FEST</title><link href="https://garagemhacker.github.io/blog/smoke-weld-fest" rel="alternate"></link><updated>2014-11-18T01:50:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2014-11-18:blog/smoke-weld-fest</id><summary type="html">&lt;p&gt;Juntamos um monte de sucada e chegou a hora de caçar, identificar e
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0 - blog</title><link href="https://garagemhacker.com/" rel="alternate"></link><link href="https://garagemhacker.com/feeds/blog.atom.xml" rel="self"></link><id>https://garagemhacker.com/</id><updated>2014-11-18T01:50:00-02:00</updated><entry><title>Smoke Weld FEST</title><link href="https://garagemhacker.com/smoke-weld-fest" rel="alternate"></link><published>2014-11-18T01:50:00-02:00</published><updated>2014-11-18T01:50:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.com,2014-11-18:/smoke-weld-fest</id><summary type="html">&lt;p&gt;Juntamos um monte de sucada e chegou a hora de caçar, identificar e
+organizar todos os componentes para que possamos reaproveita-los em
+futuros projetos.
+A Smoke Weld Fest é um dia de fazer fumaça e sentir cheiro de ampère.
+Venha munido de seu ferro de solda ou soprador que a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Juntamos um monte de sucada e chegou a hora de caçar, identificar e
 organizar todos os componentes para que possamos reaproveita-los em
 futuros projetos.
 A Smoke Weld Fest é um dia de fazer fumaça e sentir cheiro de ampère.
 Venha munido de seu ferro de solda ou soprador que a bagunça e o estanho
 já estão lá.&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Festa da Fumaça e Solda" src="https://garagemhacker.github.io/blog/images/smoke-weld-fest-723x1024.jpg" /&gt;
-&lt;em&gt;Flyer da 1ª Smoke Weld Fest na GaragemHacker&lt;/em&gt;&lt;/p&gt;</summary></entry><entry><title>Classes</title><link href="https://garagemhacker.github.io/blog/participar" rel="alternate"></link><updated>2014-02-05T21:55:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-02-05:blog/participar</id><summary type="html">&lt;p&gt;Manter um HackerSpace não é barato. Por isso organizamos algumas classes
+&lt;p&gt;&lt;img alt="Festa da Fumaça e Solda" src="https://garagemhacker.com/images/smoke-weld-fest-723x1024.jpg"&gt;
+&lt;em&gt;Flyer da 1ª Smoke Weld Fest na GaragemHacker&lt;/em&gt;&lt;/p&gt;</content></entry><entry><title>Classes</title><link href="https://garagemhacker.com/participar" rel="alternate"></link><published>2014-02-05T21:55:00-02:00</published><updated>2014-02-05T21:55:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.com,2014-02-05:/participar</id><summary type="html">&lt;p&gt;Manter um HackerSpace não é barato. Por isso organizamos algumas classes
 (mini workshop's) que podem ajudar a manter o espaço funcionando. Uma
-boa forma de auxiliar é participando das classes.&lt;br /&gt;
+boa forma de auxiliar é participando das classes.&lt;br&gt;
+Verifique a agenda para ver quando elas acontecerão.&lt;/p&gt;
+&lt;h3&gt;Ajude o HackerSpace a crescer&lt;/h3&gt;
+&lt;p&gt;Você pode auxiliar o espaço fazendo uma …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Manter um HackerSpace não é barato. Por isso organizamos algumas classes
+(mini workshop's) que podem ajudar a manter o espaço funcionando. Uma
+boa forma de auxiliar é participando das classes.&lt;br&gt;
 Verifique a agenda para ver quando elas acontecerão.&lt;/p&gt;
 &lt;h3&gt;Ajude o HackerSpace a crescer&lt;/h3&gt;
 &lt;p&gt;Você pode auxiliar o espaço fazendo uma doação, assim você estará
@@ -21,7 +30,10 @@ auxiliando a manter o espaço mais ativo e com equipamentos melhores.&lt;/p&gt;
 
 &lt;/form&gt;
 
-&lt;!-- FINAL FORMULARIO BOTAO PAGSEGURO --&gt;</summary></entry><entry><title>Membros</title><link href="https://garagemhacker.github.io/blog/membros" rel="alternate"></link><updated>2014-02-05T21:40:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.github.io,2014-02-05:blog/membros</id><summary type="html">&lt;p&gt;Membro Fundador - Zero&lt;br /&gt;
-Membro Fundador - Urso&lt;br /&gt;
+&lt;!-- FINAL FORMULARIO BOTAO PAGSEGURO --&gt;</content></entry><entry><title>Membros</title><link href="https://garagemhacker.com/membros" rel="alternate"></link><published>2014-02-05T21:40:00-02:00</published><updated>2014-02-05T21:40:00-02:00</updated><author><name>garagem</name></author><id>tag:garagemhacker.com,2014-02-05:/membros</id><summary type="html">&lt;p&gt;Membro Fundador - Zero&lt;br&gt;
+Membro Fundador - Urso&lt;br&gt;
 Membro Fundador - Luis Bulek&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;Membro Tiamat - (ev4, LiliBot, r0bot)&lt;/em&gt;&lt;/p&gt;</summary></entry></feed>
+&lt;p&gt;&lt;em&gt;Membro Tiamat - (ev4, LiliBot, r0bot)&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Membro Fundador - Zero&lt;br&gt;
+Membro Fundador - Urso&lt;br&gt;
+Membro Fundador - Luis Bulek&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Membro Tiamat - (ev4, LiliBot, r0bot)&lt;/em&gt;&lt;/p&gt;</content></entry></feed>

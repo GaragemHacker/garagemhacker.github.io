@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0</title><link href="https://garagemhacker.github.io/blog/" rel="alternate"></link><link href="https://garagemhacker.github.io/blog/feeds/atividades-hackerspace-projetos-publica.atom.xml" rel="self"></link><id>https://garagemhacker.github.io/blog/</id><updated>2015-01-22T04:22:00-02:00</updated><entry><title>Hacking de Micro-Wave</title><link href="https://garagemhacker.github.io/blog/hacking-de-micro-wave" rel="alternate"></link><updated>2015-01-22T04:22:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-01-22:blog/hacking-de-micro-wave</id><summary type="html">&lt;p&gt;&lt;img alt="Hacking the MicroWave PAD" src="https://garagemhacker.github.io/blog/images/hacking_microwave-300x224.jpg" /&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0 - Atividades, HackerSpace, Projetos, Publica</title><link href="https://garagemhacker.com/" rel="alternate"></link><link href="https://garagemhacker.com/feeds/atividades-hackerspace-projetos-publica.atom.xml" rel="self"></link><id>https://garagemhacker.com/</id><updated>2015-01-22T04:22:00-02:00</updated><entry><title>Hacking de Micro-Wave</title><link href="https://garagemhacker.com/hacking-de-micro-wave" rel="alternate"></link><published>2015-01-22T04:22:00-02:00</published><updated>2015-01-22T04:22:00-02:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.com,2015-01-22:/hacking-de-micro-wave</id><summary type="html">&lt;p&gt;&lt;img alt="Hacking the MicroWave PAD" src="https://garagemhacker.com/images/hacking_microwave-300x224.jpg"&gt;
 &lt;em&gt;Zero fazendo o hacking do Pad&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Queremos comer pipoca de Micro-Ondas, aquecer algum pedaço de pizza
 etc... Tinhamos um micro-ondas parado já enconstado há algum tempo. O
 objetivo era reativar o micro-ondas e fazer com que ele ficasse mais
 divertido…&lt;/p&gt;
-&lt;p&gt;&lt;img alt="MicroWave New Pad" src="https://garagemhacker.github.io/blog/images/IMG_1449-300x224.jpg" /&gt;
+&lt;p&gt;&lt;img alt="MicroWave New Pad" src="https://garagemhacker.com/images/IMG_1449-300x224.jpg"&gt;
+&lt;em&gt;MicroWave New Pad&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Nosso micro-ondas estava com um defeito no …&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;img alt="Hacking the MicroWave PAD" src="https://garagemhacker.com/images/hacking_microwave-300x224.jpg"&gt;
+&lt;em&gt;Zero fazendo o hacking do Pad&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Queremos comer pipoca de Micro-Ondas, aquecer algum pedaço de pizza
+etc... Tinhamos um micro-ondas parado já enconstado há algum tempo. O
+objetivo era reativar o micro-ondas e fazer com que ele ficasse mais
+divertido…&lt;/p&gt;
+&lt;p&gt;&lt;img alt="MicroWave New Pad" src="https://garagemhacker.com/images/IMG_1449-300x224.jpg"&gt;
 &lt;em&gt;MicroWave New Pad&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Nosso micro-ondas estava com um defeito no Painel frontal. Desmontamos o
 Painel e descobrimos que a falha estava no cabo flat que fazia contato
@@ -16,4 +24,4 @@ lugar do painel, mas o unico pad de telefone que estava na mão estava em
 um telefone que estava em uso entao achamos em uma caixa um controle
 remoto qualquer e foi ele mesmo que usamos para montar nosso novo pad no
 lugar do painel do Micro-Ondas.&lt;/p&gt;
-&lt;p&gt;Veja o projeto em nossa &lt;a href="https://github.com/garagemhacker/wiki/"&gt;wiki&lt;/a&gt;&lt;/p&gt;</summary></entry></feed>
+&lt;p&gt;Veja o projeto em nossa &lt;a href="https://github.com/garagemhacker/wiki/"&gt;wiki&lt;/a&gt;&lt;/p&gt;</content></entry></feed>

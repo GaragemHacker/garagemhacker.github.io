@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0</title><link href="https://garagemhacker.github.io/blog/" rel="alternate"></link><link href="https://garagemhacker.github.io/blog/feeds/projetos.atom.xml" rel="self"></link><id>https://garagemhacker.github.io/blog/</id><updated>2015-08-03T03:07:00-03:00</updated><entry><title>Arduino DoJ0 Shield REV00</title><link href="https://garagemhacker.github.io/blog/arduino-doj0-shield-rev00" rel="alternate"></link><updated>2015-08-03T03:07:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.github.io,2015-08-03:blog/arduino-doj0-shield-rev00</id><summary type="html">&lt;p&gt;Estamos montando nosso primeiro Arduino DoJo Shield "REV00".&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0 - Projetos</title><link href="https://garagemhacker.com/" rel="alternate"></link><link href="https://garagemhacker.com/feeds/projetos.atom.xml" rel="self"></link><id>https://garagemhacker.com/</id><updated>2015-08-03T03:07:00-03:00</updated><entry><title>Arduino DoJ0 Shield REV00</title><link href="https://garagemhacker.com/arduino-doj0-shield-rev00" rel="alternate"></link><published>2015-08-03T03:07:00-03:00</published><updated>2015-08-03T03:07:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.com,2015-08-03:/arduino-doj0-shield-rev00</id><summary type="html">&lt;p&gt;Estamos montando nosso primeiro Arduino DoJo Shield "REV00".&lt;/p&gt;
+&lt;p&gt;Um Arduino DoJo Shield tem o objetivo de facilitar a aprendizagem do
+Arduino mostrando na prática como programar para vários componentes, no
+DoJO Shield da Garagem buscamos juntar vários componentes para nos
+divertirmos juntos. Aqui uma pequena lista dos componentes em nosso …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Estamos montando nosso primeiro Arduino DoJo Shield "REV00".&lt;/p&gt;
 &lt;p&gt;Um Arduino DoJo Shield tem o objetivo de facilitar a aprendizagem do
 Arduino mostrando na prática como programar para vários componentes, no
 DoJO Shield da Garagem buscamos juntar vários componentes para nos
@@ -17,4 +21,4 @@ entre outros...&lt;/li&gt;
 &lt;iframe width="360" height="215" src="https://www.youtube.com/embed/JNOXBXoQbEs" frameborder="0" allowfullscreen&gt;&lt;/iframe&gt;
 
 &lt;p&gt;&lt;em&gt;Acompanhe o projeto em nossa&lt;/em&gt; &lt;a href="https://github.com/garagemhacker/blog/wiki"&gt;Wiki&lt;/a&gt;
-&lt;em&gt;e no&lt;/em&gt; &lt;a href="https://github.com/GaragemHacker/Arduino-Dojo-Shield"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</summary><category term="Arduino"></category><category term="Arduino Dojo Shield"></category><category term="Arduino Shield"></category><category term="Curitiba Dojo"></category><category term="Dojo Shield"></category><category term="GaragemHacker Dojo"></category><category term="HackerSpaces Dojo"></category></entry></feed>
+&lt;em&gt;e no&lt;/em&gt; &lt;a href="https://github.com/GaragemHacker/Arduino-Dojo-Shield"&gt;GitHub&lt;/a&gt;&lt;/p&gt;</content><category term="Arduino"></category><category term="Arduino Dojo Shield"></category><category term="Arduino Shield"></category><category term="Curitiba Dojo"></category><category term="Dojo Shield"></category><category term="GaragemHacker Dojo"></category><category term="HackerSpaces Dojo"></category></entry></feed>
