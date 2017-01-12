@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0 - HackerSpace, Novidades, Projetos</title><link href="http://garagemhacker.com/" rel="alternate"></link><link href="http://garagemhacker.com/feeds/hackerspace-novidades-projetos.atom.xml" rel="self"></link><id>http://garagemhacker.com/</id><updated>2015-03-26T01:33:00-03:00</updated><entry><title>STATUSBOT - Saiba se estamos abertos ou fechados</title><link href="http://garagemhacker.com/statusbot-saiba-se-estamos-abertos-ou-fechados" rel="alternate"></link><published>2015-03-26T01:33:00-03:00</published><updated>2015-03-26T01:33:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.com,2015-03-26:/statusbot-saiba-se-estamos-abertos-ou-fechados</id><summary type="html">&lt;p&gt;Para evitar dar com a cara na porta, montamos o statusbot que ainda esta
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Garagem Hacker 2.0 - HackerSpace, Novidades, Projetos</title><link href="http://garagemhacker.org/" rel="alternate"></link><link href="http://garagemhacker.org/feeds/hackerspace-novidades-projetos.atom.xml" rel="self"></link><id>http://garagemhacker.org/</id><updated>2015-03-26T01:33:00-03:00</updated><entry><title>STATUSBOT - Saiba se estamos abertos ou fechados</title><link href="http://garagemhacker.org/statusbot-saiba-se-estamos-abertos-ou-fechados" rel="alternate"></link><published>2015-03-26T01:33:00-03:00</published><updated>2015-03-26T01:33:00-03:00</updated><author><name>zz0</name></author><id>tag:garagemhacker.org,2015-03-26:/statusbot-saiba-se-estamos-abertos-ou-fechados</id><summary type="html">&lt;p&gt;Para evitar dar com a cara na porta, montamos o statusbot que ainda esta
 em beta test mas ja esta funcionando. O statusbot é responsavel por
 informar se o HackerSpace esta aberto ou fechado.&lt;/p&gt;
 &lt;p&gt;Então agora no topo da garagem você verá esta lampada&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Statusbot Lamp" src="http://garagemhacker.com/images/lamp.png"&gt;
+&lt;p&gt;&lt;img alt="Statusbot Lamp" src="http://garagemhacker.org/images/lamp.png"&gt;
 &lt;em&gt;Lampada que mostra se o hackerspace …&lt;/em&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;Para evitar dar com a cara na porta, montamos o statusbot que ainda esta
 em beta test mas ja esta funcionando. O statusbot é responsavel por
 informar se o HackerSpace esta aberto ou fechado.&lt;/p&gt;
 &lt;p&gt;Então agora no topo da garagem você verá esta lampada&lt;/p&gt;
-&lt;p&gt;&lt;img alt="Statusbot Lamp" src="http://garagemhacker.com/images/lamp.png"&gt;
+&lt;p&gt;&lt;img alt="Statusbot Lamp" src="http://garagemhacker.org/images/lamp.png"&gt;
 &lt;em&gt;Lampada que mostra se o hackerspace esta aberto ou fechado&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Quando a lampada estiver acesa, significa que a garagem esta aberta.
 Quando estiver apagada então estamos fechados.&lt;/p&gt;
