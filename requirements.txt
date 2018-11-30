@@ -1,4 +1,4 @@
 ghp-import==0.5.5
 Markdown==3.0.1
-pelican==3.7.1
+pelican==4.0.1
 html2text==2018.1.9
